@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSharpStorage", "GoogleSharpStorage\GoogleSharpStorage.csproj", "{284C9C4A-A65B-434B-AC03-7D153399E12B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleConsoleApp", "TestApp\SampleConsoleApp.csproj", "{6CD63666-E1C3-4FFA-8657-9FB773FA9784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApp", "SampleWebApp\SampleWebApp.csproj", "{B4B5A2B8-6852-4AB9-ACF1-9E9CDFCCF73C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{284C9C4A-A65B-434B-AC03-7D153399E12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{284C9C4A-A65B-434B-AC03-7D153399E12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{284C9C4A-A65B-434B-AC03-7D153399E12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD63666-E1C3-4FFA-8657-9FB773FA9784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD63666-E1C3-4FFA-8657-9FB773FA9784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD63666-E1C3-4FFA-8657-9FB773FA9784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD63666-E1C3-4FFA-8657-9FB773FA9784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B5A2B8-6852-4AB9-ACF1-9E9CDFCCF73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B5A2B8-6852-4AB9-ACF1-9E9CDFCCF73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B5A2B8-6852-4AB9-ACF1-9E9CDFCCF73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B5A2B8-6852-4AB9-ACF1-9E9CDFCCF73C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

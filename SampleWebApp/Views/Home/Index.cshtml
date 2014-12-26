@@ -1,0 +1,38 @@
+﻿@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Sample GStorage Web App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Upload file to google storage</h1>
+    <div>
+        Using OAuth Authorization:
+        @Html.ActionLink("Authorize!","AuthorizeOAuth","Home")
+        @if((bool)ViewBag.AuthDone)
+        {
+            using (Html.BeginForm("UploadFileOAuth", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <input type="file" name="file" class="btn btn-default" />
+                <input type="submit" value="upload" class="btn btn-success" />
+            }
+        }
+    </div>
+    <hr/>
+    <div>
+        Using Service Authorization:
+        @using (Html.BeginForm("UploadFileServiceAuthorization", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <input type="file" name="file" class="btn btn-default" />
+            <input type="submit" value="upload" class="btn btn-success" />
+        }
+    </div>
+</body>
+</html>
